@@ -1,0 +1,11 @@
+#navbar1{
+    background-color:white;
+}
+
+.navbar-brand{
+    color: black;
+}
+
+.btn-outline-success:hover{
+    background-color: white;
+}
