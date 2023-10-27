@@ -9,7 +9,7 @@ export class ApiService{
 
   initZapatilla!: Zapatillas
   private zapatilla$ = new BehaviorSubject<Zapatillas>(this.initZapatilla)
- 
+
   getselectedZapatilla$(): Observable<Zapatillas> {
     return this.zapatilla$.asObservable();
   }

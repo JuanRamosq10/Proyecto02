@@ -12,6 +12,8 @@ import { CategoriasComponent } from './views/inicio/categorias/categorias.compon
 import { AnunciosComponent } from './views/inicio/anuncios/anuncios.component';
 import { RegistroComponent } from './views/registro/registro.component';
 import { SmJ1Component } from './views/inicio/sm-j1/sm-j1.component';
+import { ContactoComponent } from './views/contacto/contacto.component';
+import { SmFrComponent } from './views/inicio/sm-fr/sm-fr.component';
 
 @NgModule({
   declarations: [
@@ -23,7 +25,9 @@ import { SmJ1Component } from './views/inicio/sm-j1/sm-j1.component';
     CategoriasComponent,
     AnunciosComponent,
     RegistroComponent,
-    SmJ1Component
+    SmJ1Component,
+    ContactoComponent,
+    SmFrComponent
   ],
   imports: [
     BrowserModule,

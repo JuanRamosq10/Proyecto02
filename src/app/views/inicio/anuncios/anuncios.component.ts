@@ -10,7 +10,7 @@ import { ApiService } from 'src/app/shared/api-service.service';
 export class AnunciosComponent implements OnInit {
 
   zapatilla: Zapatillas | null = null;
-  
+
   constructor(private apiService: ApiService) {}
 
   ngOnInit() {
