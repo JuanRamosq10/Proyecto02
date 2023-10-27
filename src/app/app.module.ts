@@ -10,6 +10,8 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { CarouselComponent } from './views/inicio/carousel/carousel.component';
 import { CategoriasComponent } from './views/inicio/categorias/categorias.component';
 import { AnunciosComponent } from './views/inicio/anuncios/anuncios.component';
+import { ContactoComponent } from './views/contacto/contacto.component';
+import { SmFrComponent } from './views/inicio/sm-fr/sm-fr.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +21,9 @@ import { AnunciosComponent } from './views/inicio/anuncios/anuncios.component';
     NavbarComponent,
     CarouselComponent,
     CategoriasComponent,
-    AnunciosComponent
+    AnunciosComponent,
+    ContactoComponent,
+    SmFrComponent
   ],
   imports: [
     BrowserModule,
