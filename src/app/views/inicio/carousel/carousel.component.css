@@ -1,4 +1,18 @@
 .custom-carousel {
-    width: 50vw; 
-    height: 50vh; 
-}  
+    height: 70vh; /* Establece la altura al 50% de la altura de la ventana */
+    width: 100%; /* Ocupa todo el ancho disponible */
+    overflow: hidden; /* Evita que las imágenes se desborden */
+}
+
+.picsum-img-wrapper {
+    height: 100%; /* Ajusta la altura de las imágenes al 100% del carrusel */
+    display: flex; /* Utiliza flexbox para centrar verticalmente la imagen */
+    align-items: center; /* Centra verticalmente la imagen */
+    justify-content: center; /* Centra horizontalmente la imagen */
+}
+
+.picsum-img-wrapper img {
+    max-height: 100%; /* Ajusta la altura máxima al 100% del contenedor */
+    width: auto; /* Asegura que el ancho se ajuste automáticamente para mantener la proporción original de la imagen */
+    max-width: 100%; /* Evita que la imagen se desborde horizontalmente */
+}

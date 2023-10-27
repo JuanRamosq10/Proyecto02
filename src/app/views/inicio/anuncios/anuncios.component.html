@@ -1,28 +1,10 @@
+<!-- anuncios.component.html -->
 <div class="contenedor">
     <div class="contenedor2">
-        <h4>Jordan 1 University Blue</h4>
-        <p>¡Descubre el auténtico espíritu de la moda urbana con las Jordan 1 University Blue! Estas zapatillas icónicas te llevarán a nuevas alturas de estilo y rendimiento.
-            Las Jordan 1 University Blue son un homenaje a la herencia del baloncesto, combinando un diseño clásico con una paleta de colores fresca y atrevida. El tono azul universitario te hará destacar en la multitud y te asegurará que no pases desapercibido.
-            Construidas con materiales de alta calidad, estas zapatillas te brindan una comodidad excepcional durante todo el día. La suela Air-Sole encapsulada en el talón proporciona una amortiguación inigualable, perfecta para tus aventuras diarias o para brillar en la cancha.
-            Las Jordan 1 University Blue no son solo un par de zapatillas; son una declaración de estilo, una forma de vida. Combínalas con tu atuendo favorito para un look fresco y contemporáneo que te hará destacar en cualquier lugar al que vayas.
-            No pierdas la oportunidad de añadir estas joyas a tu colección de zapatillas. Las Jordan 1 University Blue son un símbolo de autenticidad, historia y estilo de vida. ¡Consíguelas ahora y eleva tu juego de moda a un nivel completamente nuevo!</p>
+        <h4>{{ zapatilla?.nombre }}</h4>
+        <p>{{ zapatilla?.descripcion }}</p>
     </div>
     <div class="contenedor2">
-        <img src="../../../../assets/img/Jordan1.jpg" alt="">
-    </div>
-</div>
-<div class="contenedor">
-    <div class="contenedor2">
-        <img src="../../../../assets/img/forum.jpg" alt="">
-    </div>
-    <div class="contenedor3">
-        <h4>Adidas Forum</h4>
-        <p>
-            ¡Prepárate para darle a tu estilo un impulso increíble con las Adidas Forum! Estas zapatillas emblemáticas no solo te brindan un toque de autenticidad, sino que también te envuelven en comodidad y versatilidad sin igual.
-            Las Adidas Forum combinan la nostalgia de su diseño clásico de baloncesto con detalles modernos, creando un calzado que grita "cool" en cada paso. Ya sea que las uses para patear las calles o para destacar en una noche especial, estas zapatillas te aseguran un aspecto fresco y a la moda.
-            La comodidad es clave: la suela intermedia de EVA y la tecnología de amortiguación te brindan apoyo durante todo el día, sin importar cuánto camines o te mantengas en movimiento.
-            Pero hay algo más que hace que las Adidas Forum sean excepcionales: la historia y la cultura urbana que las rodean. Al ponértelas, te unes a una tradición de estilo que ha sido adoptada por generaciones de amantes de la moda.
-            Entonces, ¿estás listo para elevar tu juego de moda? Hazlo con las Adidas Forum y prepárate para recibir miradas de admiración. ¡Consigue las tuyas ahora y marca tendencia en cada esquina!     
-    </p>
+        <img [src]="zapatilla?.img" alt="">
     </div>
 </div>
