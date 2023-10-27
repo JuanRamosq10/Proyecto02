@@ -11,6 +11,8 @@ export class AnunciosComponent implements OnInit {
 
   zapatilla: Zapatillas | null = null;
 
+  // selectedZapatilla$ = this.apiService.selectedZapatilla$;
+
   constructor(private apiService: ApiService) {}
 
   ngOnInit() {
