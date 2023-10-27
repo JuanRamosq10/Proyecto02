@@ -6,5 +6,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./carousel.component.css']
 })
 export class CarouselComponent {
-  images = ['zapatilla1.jpeg', 'zapatillas2.jpg', 'zapatilla3.jpeg'].map((imageName) => `././././assets/img/${imageName}`);
+  images = ['carousel1.webp', 'carousel2.webp', 'adidas.webpx'].map((imageName) => `././././assets/img/${imageName}`);
 }

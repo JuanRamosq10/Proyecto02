@@ -13,3 +13,19 @@ a{
 .btn-outline-success:hover{
     background-color: white;
 }
+a{
+    color: white;
+}
+img{
+    height: 50px;
+    border-radius: 22px;
+    margin-right: 10px;
+}
+.Nombre{
+    color: white;
+    display: flex;
+    margin-right: 32%;
+    font-size: 40px;
+
+
+}
