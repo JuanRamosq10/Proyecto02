@@ -1,0 +1,200 @@
+
+
+#navbar1{
+    background-color:#785d56;
+}
+
+.navbar-brand{
+    color: white;
+}
+
+a{
+    color: white;
+}
+
+.btn-outline-success:hover{
+    background-color: #e6d5c1;
+}
+
+.imagen{
+    height: 80vh;
+}
+
+.recepcionista{
+    height: 80vh;
+    width: 100%;
+}
+
+.conocenos{
+    position: relative;
+    bottom: 20vh;
+    left: 10vh;
+}
+
+.formularioymapa{
+    height: 80vh;
+    background-color: #e6d5c1;
+}
+
+.formulario{
+    background-color: #e6d5c1;
+    position: relative;
+    top: 8vh;
+    left: 15vh;
+    height: 65vh;
+    width: 65vh;
+}
+
+.nombre{
+    position: relative;
+    background-color:  #e6d5c1;
+    top: 4vh;
+    width: 100%;
+    height: 3vh;
+}
+
+.letras{
+    padding-left: 8vh;
+    color: black;
+}
+
+.cajatexto{
+    position: relative;
+    left: 8vh;
+    width: 88%;
+}
+
+.cajatexto{
+    position: relative;
+    left: 8vh;
+    width: 88%;
+    height: 10vh;
+}
+
+.apellidos{
+    position: relative;
+    background-color:  #e6d5c1;
+    top: 8vh;
+    width: 100%;
+    height: 3vh;
+}
+
+.correo{
+    position: relative;
+    background-color:  #e6d5c1;
+    top: 12vh;
+    width: 100%;
+    height: 3vh;
+}
+
+.telefono{
+    position: relative;
+    background-color:  #e6d5c1;
+    top: 16vh;
+    width: 100%;
+    height: 3vh;
+}
+
+.mensaje{
+    position: relative;
+    background-color:  #e6d5c1;
+    top: 20vh;
+    width: 100%;
+    height: 10vh;
+}
+
+.boton{
+    position: relative;
+    background-color:  #e6d5c1;
+    top: 24vh;
+    width: 5vh;
+    height: 5vh;
+}
+
+.cajatextoboton{
+    position: relative;
+    left: 8vh;
+    height: 5vh;
+    width: 10vh;
+}
+
+/*MAPA*/
+.mapa{
+    position: relative;
+    left: 60%;
+    bottom: 65vh;
+    background-color: red;
+    height: 80vh;
+    width: 76vh;
+}
+
+.mapita{
+    height: 100%;
+    width: 100%;
+}
+
+/*FOOTER*/
+.foter{
+    background-color: #785d56;
+    height: 40vh;
+}
+
+.barrariba{
+    background-color: #e6d5c1;
+    height: 5vh;
+}
+
+
+.columnas{
+    margin-left: 20%;
+    width: 60%;
+    position: relative;
+    height: 88%;
+}
+
+/*COLUMNAS QUE VAN DENTRO DEL FOOTER*/
+.colum1{
+    background-color: #785d56;
+    height: 88%;
+    width: 20vh;
+    position: absolute;
+    top: 2vh;
+    left: 15vh;
+    color: #e6d5c1;
+}
+
+.colum2{
+    background-color:  #785d56;
+    height: 88%;
+    width: 20vh;
+    position: absolute;
+    top: 2vh;
+    left: 45vh;
+    color: #e6d5c1;
+}
+
+.colum3{
+    background-color:  #785d56;
+    height: 88%;
+    width: 20vh;
+    position: absolute;
+    top: 2vh;
+    left: 75vh;
+    color: #e6d5c1;
+}
+
+/*DENTRO DE LA COLUMNA 1*/
+
+.trabaja{
+    height: 2vh;
+    margin-left: 2vh;
+    margin-top: 7px;
+}
+
+.trabaja:hover{
+    color: blue;
+    text-decoration: underline;
+    height: 2vh;
+    margin-left: 2vh;
+    margin-top: 7px;
+}

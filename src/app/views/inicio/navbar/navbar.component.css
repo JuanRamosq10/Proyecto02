@@ -6,6 +6,10 @@
     color: white;
 }
 
+a{
+    color: white;
+}
+
 .btn-outline-success:hover{
     background-color: white;
 }
